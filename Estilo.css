@@ -1,0 +1,43 @@
+body{
+    background-color: blanchedalmond;
+}
+
+table.Estilo1{
+
+        table-layout: auto;
+        width: 50%;
+        border-collapse: separate;
+        border: 2px solid brown;
+        font-family: sans-serif;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+     }
+
+h3 {color:red; 
+   font-size:20px;
+   font-family:Courier;
+   font-weight:bold;
+   font-style:italic;
+   line-height:30px;
+   letter-spacing:5px;
+   text-decoration:underline;
+   text-transform:capitalize;
+   text-align:left;
+   text-indent:30px;
+  }
+  button{
+    font-family: 'Helvetica', 'Arial', sans-serif;
+  display: inline-block;
+  font-size: 1em;
+  padding: 1em 2em;
+
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: brown;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+  box-shadow: 0 2px 25px rgba(255, 0, 130, 0.5);
+  }
